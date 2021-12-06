@@ -3,8 +3,6 @@ build
 .svelte-kit
 .pre-build
 /.vscode/launch.json
-/packages/cli/.vscode/launch.json
-/packages/cli/tests/outputs
 **/cypress/screenshots
 **/cypress/videos
 **/cypress/results
@@ -92,17 +90,3 @@ Thumbs.db
 /output
 /dist
 /dll
-
-# cli ignore
-
-/packages/cli/lib/*
-/packages/cli/types/*
-/packages/shared/types/*
-/packages/cli/.pre-build/*
-
-**/miniprogrammvp/cypress/videos/
-**/miniprogrammvp/cypress/screenshots/
-**/miniprogrammvp/results
-
-# js-core ignore
-packages/js-core/test-report.html
